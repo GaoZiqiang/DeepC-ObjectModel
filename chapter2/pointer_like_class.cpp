@@ -25,7 +25,6 @@ struct Foo {
 };
 
 int main() {
-
     // 使用new Foo()对象的指针作为shared_ptr构造函数的参数，实例化shared_ptr对象
     shared_ptr<Foo> sp(new Foo());
 
